@@ -1,5 +1,5 @@
 {
-  "homepage": "a",
+  "homepage": "https://kowder.github.io/worldcup-picker-w-react",
   "name": "worldcup-app",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,7 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
+    "deploy": "yarn build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
