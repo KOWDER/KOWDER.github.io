@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.titles {
+  display: flex;
+  justify-content: center;
+  line-height: 0;
+  margin-top: 1em;
+  color: #0e0e0e;
+}
+
+.groups {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 2em auto;
+}
+
+.instructions {
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  color: #0e0e0e;
+  padding: 0;
+  margin: 3em auto 0;
+  width: 85%;
+  height: 150px;
+}
+
+.instructions h3 {
+  margin: 0;
+  line-height: 1.5;
+  font-weight: 400;
+}
