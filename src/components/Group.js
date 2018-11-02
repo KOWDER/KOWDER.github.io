@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/group.css';
+import '../styles/Group.css';
 
 export default ({ name, countries, onClick }) => {
   return (
